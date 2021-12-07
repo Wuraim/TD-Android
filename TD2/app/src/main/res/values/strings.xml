@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TD2</string>
+    <string name="fromage"> Fromage</string>
+    <string name="fruit" > Fruit</string>
+    <string-array name="temps">
+        <item>Couvert</item>
+        <item>Pluvieux</item>
+        <item>Degage</item>
+    </string-array>
+</resources>

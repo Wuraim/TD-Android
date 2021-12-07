@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/entree"
+        android:layout_width="140dp"
+        android:layout_height="2dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_weight="5"
+        android:hint="Entrée" />
+
+    <EditText
+        android:id="@+id/plat"
+        android:layout_width="140dp"
+        android:layout_height="2dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_weight="5"
+        android:hint="Plat principal" />
+
+    <CheckBox
+        android:id="@+id/fromage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="244dp"
+        android:text="@string/fromage" />
+
+    <CheckBox
+        android:id="@+id/fruit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="244dp"
+        android:text="@string/fruit" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/moment">
+
+        <RadioButton
+            android:id="@+id/midi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="244dp"
+            android:text="Midi" />
+
+        <RadioButton
+            android:id="@+id/soir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="244dp"
+            android:text="Soir" />
+
+    </RadioGroup>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="244dp"
+        android:layout_weight="0"
+        android:text="Annuler" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="244dp"
+        android:layout_weight="0"
+        android:text="Ok" />
+
+
+</LinearLayout>
